@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Banner() {
   return (
     <div className="relative">
-      <div className="absolute w-full h-32 sm:bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
+      <div className="absolute w-full h-1/4 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
       <Carousel
         autoPlay
         infiniteLoop
@@ -15,14 +15,14 @@ function Banner() {
         interval={5000}
       >
         <div>
-          <img loading="lazy" src="https://i.imgur.com/clxhDHG.jpg" alt="" />
+          <img loading="lazy" src="https://i.imgur.com/rHgLhKf.jpg" alt="" />
         </div>
         <div>
-          <img loading="lazy" src="https://i.imgur.com/oWwZWZC.jpg" alt="" />
+          <img loading="lazy" src="https://i.imgur.com/Vy4f2H5.jpg" alt="" />
         </div>
-        <div>
+        {/* <div>
           <img loading="lazy" src="https://i.imgur.com/Li6CQVo.jpg" alt="" />
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );
