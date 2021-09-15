@@ -50,7 +50,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="flex space-x-5 p-2 pl-6 item-center bg-amazon_blue-light text-white text-sm">
+      <div className="flex space-x-5 p-2 pl-6 item-center bg-amazon_blue-light text-white text-sm whitespace-nowrap">
         <p className="link flex item-center">
           <MenuIcon className="h-6 mr-1" />
           All
