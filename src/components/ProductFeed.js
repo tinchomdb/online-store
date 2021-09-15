@@ -18,6 +18,12 @@ function ProductFeed({ products }) {
           />
         ))}
 
+      <img
+        className="sm:col-span-full"
+        src="https://i.imgur.com/Qa4iHDD.jpg"
+        alt=""
+      />
+
       <div className="sm:col-span-2">
         {products
           .slice(4, 5)
@@ -33,6 +39,7 @@ function ProductFeed({ products }) {
             />
           ))}
       </div>
+
       {products
         .slice(5, products.length)
         .map(({ id, title, price, description, category, image }) => (
